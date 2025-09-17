@@ -55,3 +55,4 @@ jobs:
             docker stop prova-intermediaria-software
             docker rm --force prova-intermediaria-software
             docker run -d -p 8080:8080 --name prova-intermediaria-software --network=rede iquenavarro/prova-intermediaria-software:${{ github.sha }}
+
